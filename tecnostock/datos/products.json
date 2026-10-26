@@ -1,0 +1,109 @@
+{
+  "id": 120,
+  "name": "Teclado mecánico",
+  "category": "Perifericos",
+  "price": 189900,
+  "stock": 5,
+  "description": "Teclado USB para uso diario",
+  "active": true
+}
+
+{
+  "id": 121,
+  "name": "mouse",
+  "category": "perifericos",
+  "price": 231000,
+  "stock": 8,
+  "description": "mause preferido",
+  "active": true
+}
+
+{
+  "id": 122,
+  "name": "pantalla digital",
+  "category": "Perifericos",
+  "price": 239000,
+  "stock": 10,
+  "description": "pantalla con estilo",
+  "active": true
+}
+
+{
+  "id": 123,
+  "name": "USB",
+  "category": "Perifericos",
+  "price": 32000,
+  "stock": 23,
+  "description": "USB almacenamiento",
+  "active": true
+}
+
+{
+  "id": 124,
+  "name": "cable internet",
+  "category": "Perifericos",
+  "price": 45000,
+  "stock": 24,
+  "description": "cable de internet oferta",
+  "active": true
+}
+
+{
+  "id": 125,
+  "name": "adaptador USB ",
+  "category": "Perifericos",
+  "price": 50000,
+  "stock": 27,
+  "description": "ataptador recomentado",
+  "active": true
+}
+
+{
+  "id": 126,
+  "name": "phone pro",
+  "category": "Perifericos",
+  "price": 20000,
+  "stock": 30,
+  "description": "html plus garantizado",
+  "active": true
+}
+
+{
+  "id": 127,
+  "name": "deslizador mause",
+  "category": "Perifericos",
+  "price": 100000,
+  "stock": 12,
+  "description": "deslizador mause oferta",
+  "active": true
+}
+
+{
+  "id": 128,
+  "name": "tables",
+  "category": "Perifericos",
+  "price": 400000,
+  "stock": 10,
+  "description": "tables 100% garantizadas",
+  "active": true
+}
+
+{
+  "id": 129,
+  "name": "Teclado",
+  "category": "Perifericos",
+  "price": 150000,
+  "stock": 4,
+  "description": "Teclado para el uso diario",
+  "active": true
+}
+
+{
+  "id": 130,
+  "name": "equipo de sonido",
+  "category": "Perifericos",
+  "price": 180000,
+  "stock": 8,
+  "description": "Equipo de sonido en oferta",
+  "active": true
+}

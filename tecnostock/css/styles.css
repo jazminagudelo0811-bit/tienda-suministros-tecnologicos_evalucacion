@@ -1,0 +1,55 @@
+:root {
+
+    max-width: ;
+    --color-primario: #53505c;
+    --color-primario-hover: #a4a2a1;
+    --color-secundario: #272f50;
+    --color-acento: #9d9ca2;
+    --color-peligro: #2c2928;
+
+    --fondo-pagina: #eadde2;
+    --fondo-tarjeta: #884dbe;
+
+    --texto-principal: #060709;
+    --texto-secundario: #000000;
+    --borde-suave: #afaeae;
+
+    --sombra-suave: 0 1px 3px rgba(201, 56, 56, 0.1);
+    --sombra-hover: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    --radio-borde: 10px;
+    --transicion: all 0.3s ease;
+    --ancho-maximo: 1200px;
+}
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--fondo-pagina);
+    color: var(--texto-principal);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+button, select, input {
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+/* 3. ENCABEZADO Y BARRA DE BÚSQUEDA */
+header {
+    background-color: var(--color-secundario);
+    color: #bd55d1;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--sombra-suave);
+}
+
