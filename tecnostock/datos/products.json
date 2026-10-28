@@ -1,109 +1,110 @@
-{
-  "id": 120,
-  "name": "Teclado mecánico",
-  "category": "Perifericos",
-  "price": 189900,
-  "stock": 5,
-  "description": "Teclado USB para uso diario",
-  "active": true
-}
-
-{
-  "id": 121,
-  "name": "mouse",
-  "category": "perifericos",
-  "price": 231000,
-  "stock": 8,
-  "description": "mause preferido",
-  "active": true
-}
-
-{
-  "id": 122,
-  "name": "pantalla digital",
-  "category": "Perifericos",
-  "price": 239000,
-  "stock": 10,
-  "description": "pantalla con estilo",
-  "active": true
-}
-
-{
-  "id": 123,
-  "name": "USB",
-  "category": "Perifericos",
-  "price": 32000,
-  "stock": 23,
-  "description": "USB almacenamiento",
-  "active": true
-}
-
-{
-  "id": 124,
-  "name": "cable internet",
-  "category": "Perifericos",
-  "price": 45000,
-  "stock": 24,
-  "description": "cable de internet oferta",
-  "active": true
-}
-
-{
-  "id": 125,
-  "name": "adaptador USB ",
-  "category": "Perifericos",
-  "price": 50000,
-  "stock": 27,
-  "description": "ataptador recomentado",
-  "active": true
-}
-
-{
-  "id": 126,
-  "name": "phone pro",
-  "category": "Perifericos",
-  "price": 20000,
-  "stock": 30,
-  "description": "html plus garantizado",
-  "active": true
-}
-
-{
-  "id": 127,
-  "name": "deslizador mause",
-  "category": "Perifericos",
-  "price": 100000,
-  "stock": 12,
-  "description": "deslizador mause oferta",
-  "active": true
-}
-
-{
-  "id": 128,
-  "name": "tables",
-  "category": "Perifericos",
-  "price": 400000,
-  "stock": 10,
-  "description": "tables 100% garantizadas",
-  "active": true
-}
-
-{
-  "id": 129,
-  "name": "Teclado",
-  "category": "Perifericos",
-  "price": 150000,
-  "stock": 4,
-  "description": "Teclado para el uso diario",
-  "active": true
-}
-
-{
-  "id": 130,
-  "name": "equipo de sonido",
-  "category": "Perifericos",
-  "price": 180000,
-  "stock": 8,
-  "description": "Equipo de sonido en oferta",
-  "active": true
-}
+[
+  {
+    "id": 101,
+    "name": "Teclado mecánico",
+    "category": "Periféricos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario con teclas resistentes.",
+    "active": true
+  },
+  {
+    "id": 102,
+    "name": "Mouse inalámbrico",
+    "category": "Periféricos",
+    "price": 79900,
+    "stock": 15,
+    "description": "Mouse ergonómico inalámbrico con sensor de precisión.",
+    "active": true
+  },
+  {
+    "id": 103,
+    "name": "Monitor LED 24 pulgadas",
+    "category": "Periféricos",
+    "price": 589900,
+    "stock": 4,
+    "description": "Pantalla Full HD para oficina, estudio y entretenimiento.",
+    "active": true
+  },
+  {
+    "id": 104,
+    "name": "Audífonos con micrófono",
+    "category": "Periféricos",
+    "price": 129900,
+    "stock": 11,
+    "description": "Audífonos cómodos para videollamadas y música.",
+    "active": true
+  },
+  {
+    "id": 105,
+    "name": "Memoria USB 64 GB",
+    "category": "Almacenamiento",
+    "price": 32900,
+    "stock": 23,
+    "description": "Unidad USB 3.0 compacta para guardar tus archivos.",
+    "active": true
+  },
+  {
+    "id": 106,
+    "name": "Disco SSD 480 GB",
+    "category": "Almacenamiento",
+    "price": 219900,
+    "stock": 6,
+    "description": "Almacenamiento de estado sólido para acelerar tu equipo.",
+    "active": true
+  },
+  {
+    "id": 107,
+    "name": "Disco externo 1 TB",
+    "category": "Almacenamiento",
+    "price": 299900,
+    "stock": 5,
+    "description": "Disco portátil para copias de seguridad y documentos.",
+    "active": true
+  },
+  {
+    "id": 108,
+    "name": "Cable HDMI 2 metros",
+    "category": "Accesorios",
+    "price": 24900,
+    "stock": 30,
+    "description": "Cable HDMI de alta velocidad para pantallas y televisores.",
+    "active": true
+  },
+  {
+    "id": 109,
+    "name": "Adaptador USB-C multipuerto",
+    "category": "Accesorios",
+    "price": 99900,
+    "stock": 9,
+    "description": "Adaptador con puertos USB y HDMI para equipos modernos.",
+    "active": true
+  },
+  {
+    "id": 110,
+    "name": "Base refrigerante para portátil",
+    "category": "Accesorios",
+    "price": 89900,
+    "stock": 0,
+    "description": "Base ajustable con ventilación para computadores portátiles.",
+    "active": true
+  },
+  {
+    "id": 111,
+    "name": "Webcam Full HD",
+    "category": "Periféricos",
+    "price": 159900,
+    "stock": 7,
+    "description": "Cámara USB Full HD para reuniones y clases virtuales.",
+    "active": true
+  },
+  {
+    "id": 112,
+    "name": "Parlante Bluetooth portátil",
+    "category": "Accesorios",
+    "price": 119900,
+    "stock": 0,
+    "description": "Parlante compacto para escuchar música en cualquier lugar.",
+    "active": false
+  }
+]

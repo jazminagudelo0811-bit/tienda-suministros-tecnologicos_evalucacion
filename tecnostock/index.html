@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b4d">
+  <title>TecnoStock | Tecnología para ti</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/carrito.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="TecnoStock, inicio">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span>Tecno<span class="brand-accent">Stock</span><small>Tecnología para ti</small></span>
+      </a>
+      <a class="cart-indicator" href="#carrito" aria-label="Ir al carrito">
+        <span aria-hidden="true">🛒</span> Mi carrito <span id="total-unidades" class="unit-count">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="intro">
+      <p class="eyebrow">TU TIENDA DE TECNOLOGÍA</p>
+      <h1>Encuentra lo que necesitas.</h1>
+      <p>Periféricos y accesorios para trabajar, estudiar y disfrutar.</p>
+    </section>
+
+    <section class="catalog-section" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CATÁLOGO</p>
+          <h2 id="catalog-title">Productos</h2>
+        </div>
+        <p id="catalog-count" class="muted" aria-live="polite"></p>
+      </div>
+
+      <form id="filters" class="filters" role="search">
+        <label class="search-field">
+          <span>Buscar productos</span>
+          <input id="search" type="search" placeholder="Nombre o descripción" autocomplete="off">
+        </label>
+        <label>
+          <span>Categoría</span>
+          <select id="category">
+            <option value="">Todas las categorías</option>
+          </select>
+        </label>
+        <label>
+          <span>Ordenar por precio</span>
+          <select id="sort">
+            <option value="">Sin ordenar</option>
+            <option value="asc">Menor precio</option>
+            <option value="desc">Mayor precio</option>
+          </select>
+        </label>
+        <label class="availability-filter">
+          <input id="available-only" type="checkbox">
+          <span>Solo disponibles</span>
+        </label>
+        <button id="clear-filters" class="button button-quiet" type="button">Limpiar filtros</button>
+      </form>
+
+      <p id="catalog-status" class="status-message" role="status" aria-live="polite">Cargando catálogo…</p>
+      <button id="retry-load" class="button button-secondary" type="button" hidden>Volver a intentar</button>
+      <product-list id="product-list"></product-list>
+    </section>
+
+    <section id="carrito" class="cart-section" aria-labelledby="cart-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TU PEDIDO</p>
+          <h2 id="cart-title">Carrito de compras</h2>
+        </div>
+      </div>
+      <shopping-cart id="shopping-cart"></shopping-cart>
+    </section>
+
+    <section id="order-confirmation" class="order-confirmation" aria-live="polite" hidden>
+      <h2 id="order-title"></h2>
+      <p id="order-id"></p>
+      <div id="order-summary"></div>
+      <p class="muted">Esta es una simulación local. No se realizó ningún pago ni se actualizó el inventario.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>TecnoStock · Tecnología para todos</p>
+  </footer>
+</body>
+</html>
